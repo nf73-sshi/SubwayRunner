@@ -4,6 +4,7 @@
 #include "SceneManager.h"
 #include "Scene.h"
 #include "RunnerScene.h"
+#include <iostream>
 
 Entity::~Entity()
 {
