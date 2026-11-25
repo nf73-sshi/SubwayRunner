@@ -1,0 +1,46 @@
+{
+    "projects": {
+        "Runner": {
+            "additionalDependencies": [],
+            "additionalIncludeDirectories": [
+              "$(SolutionDir)../vendor/GCE/include/"
+            ],
+            "additionalLibraryDirectories": [],
+            "dependencies": [
+                "lib"
+            ],
+            "dependents": [],
+            "guid": "605C141C-75B2-3A5B-5052-420A73BD2505",
+            "lib": false,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        },
+        "lib": {
+            "additionalDependencies": [
+              "GCE.lib"
+            ],
+            "additionalIncludeDirectories": [
+              "$(SolutionDir)../vendor/GCE/include/"
+            ],
+            "additionalLibraryDirectories": [
+              "$(SolutionDir)../vendor/GCE/lib/"
+            ],
+            "dependencies": [],
+            "dependents": [
+                "Runner"
+            ],
+            "guid": "29B95B13-3379-1598-5B35-7CA55EEA4C09",
+            "lib": true,
+            "pch": false,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "60456E35-0D39-2860-3648-56AA1EA27510",
+    "solution_name": "Projet2",
+    "startup_project": "Runner",
+    "version": "1.17.4"
+}
